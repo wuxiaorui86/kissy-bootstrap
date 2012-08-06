@@ -3514,6 +3514,13 @@ a.thumbnail:hover {
 .ks-grid-bbar {
   padding-top: 10px;
 }
+.ks-grid-editor {
+  overflow: hidden;
+}
+.ks-grid-editor input[type="text"] {
+  width: 100%;
+  margin: 0;
+}
 .pull-right {
   float: right;
 }
