@@ -24,16 +24,16 @@
 
 .ks-icon-normal{
 	text-shadow: none;
-	color: @iconColor;
-	.buttonBackground(@iconBackground, @iconBackgroundHighlight);
+	color: @gray;
+	.buttonBackground(@btnBackground, @btnBackgroundHighlight);
 	border: 1px solid darken(@btnBorder, 10%);
 }
 
 .ks-icon-small{
-	font-size:17px;
+	font-size:16px;
 	height:14px;
 	width:14px;
-	line-height:14px;
+	line-height:15px;
 	.border-radius(2px);
 	i{
 		*position:absolute;
@@ -41,7 +41,7 @@
 		*left:0;
 	}
 }
-.ks-icon-disable{
+/*.ks-icon-disable{
 	.buttonBackground(@iconBackground, @iconDisableBackGroundHighlight);
 	color:@iconDisableColor;
 	border: 1px solid @iconDisableBorderColor;			
@@ -50,7 +50,7 @@
 	.buttonBackground(@iconBackground, @iconHoverBackGroundHighlight);
 	color:@iconHoverColor;
 	border: 1px solid @iconHoverBorderColor;	
-}
+}*/
 
 .ks-icon-success{
 	color: @white;
@@ -68,5 +68,5 @@
 }
 .ks-icon-info{
 	color: @white;
-	.buttonBackground(@iconInfoBackground, @iconInfoBackgroundHighlight);
+	.buttonBackground(@btnPrimaryBackground, @btnPrimaryBackgroundHighlight);
 }

@@ -12,6 +12,7 @@
 			<li><a href="#typography">字体排版</a></li>
 			<li><a href="#label">标签</a></li>
 			<li><a href="#badge">标记</a></li>
+            <li><a href="#icon">图标</a></li>
 			<li><a href="#breadcrumbs">面包屑</a></li>
 		</ul>
 	</div>
@@ -22,6 +23,8 @@
 <?php  include("./components/label.php"); ?>
 
 <?php  include("./components/badge.php"); ?>
+
+<?php  include("./components/icon.php"); ?>
 
 <?php  include("./components/breadcrumbs.php"); ?>
 
